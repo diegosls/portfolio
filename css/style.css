@@ -174,7 +174,6 @@ p{
 }
 .experience-with-lang {
   display: flex;
-  width: 500px;
   margin: 50px auto;
   justify-content: space-between;
 }
@@ -297,7 +296,7 @@ footer p {
   margin-top: -6rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .projects {
     justify-content: center;
     grid-template-columns: 100%; /* Uma coluna ocupando 100% da largura em telas menores */
@@ -404,13 +403,13 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1201px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .container {
-    width: 60vw;
+    width: 70vw;
   }
 
 }
