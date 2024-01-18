@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -21,7 +22,7 @@ a {
 
 header {
   background-color: #222;
-  width: 100%;
+  width: 100vw;
 }
 nav {
   display: flex;
@@ -103,11 +104,7 @@ section{
   font-size: 18px;
   margin-top: 30px;
 }
-.about-btn {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
+
 .btn-primary {
   width: 195px;
   height: 64px;
@@ -153,13 +150,19 @@ p{
   color: #161513;
 }
 
+.about-btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .about-btn a{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about-btn a box-icon{
+.about-btn a i{
   margin-left: 10px;
 }
 .experience-with {
@@ -244,6 +247,7 @@ p{
 }
 footer {
   background-color: #191919;
+  width: 100vw;
 }
 footer h2 {
   color: #fff;
@@ -290,7 +294,7 @@ footer p {
 }
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1100px) {
   .projects {
     justify-content: center;
     grid-template-columns: 100%; /* Uma coluna ocupando 100% da largura em telas menores */
@@ -301,22 +305,18 @@ footer p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid yellow;
     width: 100%;
   }
 
   .about-text h1 {
     font-size: 35px;
     width: 100%;
-    border: 1px solid red;
   }
   .about-text p {
     font-size: 15px;
     width: 60%;
-    border: 1px solid red;
   }
   .container .container_flex{
-    border: 1px solid rgb(17, 148, 0);
     width: 80%;
     display: flex;
     justify-content: center;
@@ -330,31 +330,28 @@ footer p {
   }
   
   .experience-with-lang{
-    width: 60%;
-    display: flex;
-    justify-content:space-between;
+    width: 100%;
+    margin-left: -10px;
   }
 
   header {
     width: 100vw;
-
   }
 
-
-/*____________________________________________*/
   .logo img {
     width: 50px;
-    border: 2px solid green;
+    display: none;
+  }
+  nav{
+    display: flex;
   }
   .navbar{
-    border: 2px solid green;
-    margin-left: -3rem;
-    margin-right: 4rem;
+    border: 2px solid rgb(252, 193, 1);
+    margin-left: -4rem;
   }
 
   .navbar div {
     padding: 30px 15px;
-    
   }
   .navbar a {
     color: #fff;
@@ -362,7 +359,6 @@ footer p {
     font-size: 0.9rem;
   }
 
-/*____________________________________________*/
   .experience-title-container {
     display: flex;
     justify-content: space-between;
@@ -386,12 +382,30 @@ footer p {
     font-size: 11px;
   }
 
+  .about-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    width: 8.5rem;
+  }
+
   
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1101px) {
   .projects {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 60vw;
   }
 }
 
