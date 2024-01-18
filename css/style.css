@@ -9,6 +9,10 @@ body {
   color: #c5c5c5;
   zoom: 1;
   transform: scale(1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -59,7 +63,6 @@ section{
 .container {
   width: 120vh;
   margin: 0 auto;
-  border: 1px solid red;
   padding: 80px 20px;
 }
 .contain_avatar{
@@ -323,7 +326,7 @@ footer p {
   }
 
   .container {
-    width: 70vh;
+    width: 100vw;
   }
   
   .experience-with-lang{
