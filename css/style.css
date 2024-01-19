@@ -14,10 +14,10 @@ body {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  cursor: url("../image/cursor.png"), auto;
 }
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 header {
@@ -429,4 +429,13 @@ footer p {
 
 .project-item:hover img {
   transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
+}
+
+
+
+
+/* TESTEEEEEEEEEEEE*/
+
+img{
+  cursor: url("../image/cursor.png"), auto;
 }
