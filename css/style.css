@@ -279,6 +279,8 @@ footer p {
   transform: scale(1.1);
 }
 
+
+
 .social-links a:hover{
   color: #fef248;
   transform: scale(1.3);
@@ -377,13 +379,14 @@ footer p {
   }
 
   .experience-title-container i{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .container .experience-with-lang i{
     font-size: 3rem;
   }
   .experience-title {
-    font-size: 11px;
+    font-size: 13px;
+    text-align: center;
   }
   .container p{
     font-size: 11px;
@@ -404,7 +407,35 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1001px) and  (max-width: 1101px){
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 80vw;
+  }
+
+  .experience-title-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .experience-title-container .date {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .experience-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 1200px){
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -413,6 +444,95 @@ footer p {
     width: 70vw;
   }
 }
+
+@media screen and (min-width: 768px) and  (max-width: 1024px){
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  .experience-title-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .experience-title-container .date {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .experience-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 280px) and  (max-width: 653px){
+  .projects {
+    grid-template-columns: repeat(1, 2fr);
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .experience-title-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .experience-title-container .date {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .experience-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .container .experience-with-lang i{
+    font-size: 1rem;
+  }
+
+  .social-links i{
+    font-size: 20px;
+  }
+
+  .social-links {
+    margin-left: 0px;
+  }
+
+  .navbar a {
+    color: #fff;
+    transition: all 0.2s;
+    font-size: 0.6rem;
+  }
+
+  .about-btn a{
+    font-size: 0.5rem;
+    width: 6rem;
+  }
+
+  .about-btn i{
+    font-size: 2rem;
+  }
+
+  .about-text h1{
+    font-size: 1.5rem;
+  }
+    
+}
+
+
 
 
 
