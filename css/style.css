@@ -473,69 +473,6 @@ footer p {
   
 }
 
-@media screen and (min-width: 280px) and  (max-width: 653px){
-  .projects {
-    grid-template-columns: repeat(1, 2fr);
-  }
-
-  .container {
-    width: 100vw;
-  }
-
-  .experience-title-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .experience-title-container .date {
-    font-size: 10px;
-    margin: 0 auto;
-  }
-
-  .experience-title {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .container .experience-with-lang i{
-    font-size: 1rem;
-  }
-
-  .social-links i{
-    font-size: 20px;
-  }
-
-  .social-links {
-    margin-left: 0px;
-  }
-
-  .navbar a {
-    color: #fff;
-    transition: all 0.2s;
-    font-size: 0.6rem;
-  }
-
-  .about-btn a{
-    font-size: 0.5rem;
-    width: 6rem;
-  }
-
-  .about-btn i{
-    font-size: 2rem;
-  }
-
-  .about-text h1{
-    font-size: 1.5rem;
-  }
-    
-}
-
-
-
-
-
 
 .project-item {
   position: relative;
