@@ -233,6 +233,10 @@ p{
 }
 .experience-title-container .date {
   margin-left: auto;
+   background-color: #fef248;
+   color: #000;
+   padding:4px;
+   border-radius: 10px;
 }
 
 .container .experience-with-lang i{
@@ -470,9 +474,20 @@ footer p {
     font-size: 20px;
     text-align: center;
   }
+
+
   
 }
 
+  .access{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  color:black;
+  background-color: #fef248;
+  }
 
 .project-item {
   position: relative;
@@ -488,6 +503,8 @@ footer p {
 .project-item:hover img {
   transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
 }
+
+
 
 img{
   cursor: url("../image/cursor.png"), auto;
