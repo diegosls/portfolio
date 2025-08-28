@@ -1,345 +1,219 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Portfólio - Diego Sales</title>
+  <meta name="description" content="Portfólio de Diego Sales, desenvolvedor e entusiasta em redes e segurança da informação">
+  <meta name="keywords" content="HTML, CSS, JavaScript, PHP, Python, Node.js, PostgreSQL, ShellScript, Docker, Vagrant, Ansible">
+  <meta name="author" content="Diego Sales">
+  <link rel="icon" href="image/avatar.png">
+</head>
+<body>
+  <!-- HEADER -->
+  <header role="banner">
+    <nav class="navbar" role="navigation" aria-label="Menu principal">
+      <div><a href="#about">Home</a></div>
+      <div><a href="#projects">Projetos</a></div>
+      <div><a href="#contact">Contato</a></div>
+    </nav>
+  </header>
 
-    <!-- Description of site -->
-    <meta name="description" content="Portfólio de Joanderson">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="author" content="Joanderson">
-
-    <link rel="icon" href="image/avatar.png">
-    
-    <title>Portifolio - Joanderson</title>
-  </head>
-  <body >
-    <header>
-      <div style="display: flex; justify-content: center;">
-        <nav>
-          <div class="logo">
-            <a href="">
-              <img src="image/avatar.png" alt="avatar" />
-            </a>
-          </div>
-          <div class="navbar">
-            <div><a href="index.html">Home</a></div>
-            <div><a href="#projects">Projetos</a></div>
-            <div><a href="#experience">Experiência</a></div>
-            <div><a href="#contact">Contato</a></div>
-          </div>
-        </nav>
+  <main>
+    <!-- SOBRE -->
+    <section id="about" class="container about" role="region" aria-labelledby="sobre-titulo">
+      <div class="contain_avatar">
+        <div class="avatar" role="img" aria-label="Foto de perfil de Diego Sales"></div>
       </div>
-    </header>
-    
-    <section class="container about" style="margin-top: -2rem;">
-      <div class="container_flex">
-        <div class="contain_avatar">
-          <div class="avatar" alt="Photo Joanderson"></div>
-        </div>
-        
-        <div class="about-text">
-          <h1>Amo programar e desenvolver diversos<br /><span>sites!</span></h1>
-          
-          <p style="width: 100%; display:flex; justify-content: center;">
-            Olá, seja vem vindo(a) ao meu portfólio. Fique à vontade para explorá-lo o quanto quiser.
-          </p>
-          <div class="about-btn">
-            <a class="btn-primary" href="https://github.com/eujoanderson" target="_blank">Acessar <i class='bx bxl-github' ></i></box-icon></a>
-            <a class="btn-secondary" href="archive/Curriculo.pdf" target="_blank">Baixar <i class='bx bxs-download' ></i></a>
-          </div>
-        </div>
-      </div> 
-      
-    </section>
-  
-    <section class="container experience-with" style="margin-top: -9rem;">
-      <h2>LINGUAGENS</h2>
-        <div class="experience-with-lang">
-          <i class='bx bxl-php' ></i>
-          <i class='bx bxl-bootstrap' ></i>
-          <i class='bx bxl-html5' ></i>
-          <i class='bx bxl-javascript' ></i>
-          <i class='bx bxl-python' ></i>
-          <i class='bx bxl-css3' ></i>
-        </div>
-    </section>
-
-    <section class="container margem" id="projects">
-      <h2 class="primary-heading heading-project">PROJETOS</h2>
-      <div class="projects">
-        <div class="project-item">
-          <a href="https://eujoanderson.github.io/Projeto-series-e-filmes/" target="_blank"> 
-            <img src="image/filmes.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-javascript'></i>
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-            </p>
-            <h3>MOVIES AND SERIES</h3>
-            <p>
-              Criei um site onde eu pudesse observar os filmes e séries que já tinha assistido, para usá-los como repertório no ENEM.
-            </p>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <a href="https://eujoanderson.github.io/projeto_spotify/" target="_blank"> 
-            <img src="image/spotify.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-            </p>
-            <h3>CLONE SPOTIFY</h3>
-            <p>Neste projeto, desenvolvi um site semelhante ao do Spotify.</p>
-          </div>
-        </div>
-
-
-        <div class="project-item">
-          <a href=" https://eujoanderson.github.io/projeto_finans/" target="_blank">
-            <img src="image/finans.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-            </p>
-
-            <h3>PROJETO FINANS</h3>
-            <p>Desenvolvi este site durante o curso de desenvolvimento web realizado na Udemy.</p>
-          </div>
-        </div>
-
-        <div class="project-item">
-
-          <a href="https://eujoanderson.github.io/calculadora_js/" target="_blank">
-            <img src="image/calculadora.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-              <i class='bx bxl-javascript'></i>
-            </p>
-
-            <h3>CALCULADORA</h3>
-            <p>Desenvolvi essa calculadora durante o curso de desenvolvimento web realizado na Udemy.</p>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <a href="https://github.com/eujoanderson/accesscontrol" target="_blank">
-            <img src="image/access_control.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-              <i class='bx bxl-nodejs' ></i>
-              <i class='bx bxl-javascript'></i>
-              <i class='bx bxl-postgresql' ></i>
-              <i class='bx bxs-file-json' ></i>
-            </p>
-
-            <h3>CONTROL DE ACESSO</h3>
-            <p>Esse sistema foi desenvolvido no curso de Redes de Computadores, na matéria de 'Desenvolvimento Web.</p>
-          </div>
-        </div>
-
-
-        <div class="project-item">
-          <a href="https://github.com/eujoanderson/accesscontrol" target="_blank">
-            <img src="image/jgetty.png" alt="abm-project1" />
-          </a>
-          
-          <div class="project-title">
-            <p>
-              GITHUB
-              <i class='bx bxl-html5' ></i>
-              <i class='bx bxl-css3' ></i>
-              <i class='bx bxl-python' ></i>
-              <i class='bx bxl-javascript'></i>
-              <i class='bx bxl-postgresql' ></i>
-            </p>
-
-            <h3>Jgetty</h3>
-            <p>Projeto Open Source para repositório privado de pacotes do Windows. Eu fiz aprimoramento no código fonte.</p>
-          </div>
-        </div>
-
-      </div>
-      <p class="access" style="font-size:1rem;">Acesse o GITHUB para ter acesso a mais projetos <a href="https://github.com/eujoanderson" title="GITHUB" target="_blank"><i class='bx bxl-github' style="color:black;" ></i></a></p>
-    </section>
-
-    <section class="container margem" id="experience" >
-      <h2 class="primary-heading heading-experience">EXPERIENCIA</h2>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bxl-product-hunt' style="margin-left: 0;color:red;" ></i>
-            </div>
-            <div class="experience-title">
-             Phoebus Tecnologia
-            </div>
-            <div class="date">ANALISTA DE INFRA JUNIOR ( MAI 2025 - PRESENT )</div>
-          </div>
-          <p>
-            Após finalização do curso de Redes de computadores tive a oportunidade de me torar Analista de Infra da Phoebus. Uma grande oportunidade para aprimorar ainda mais os conhecimentos
-            adquiridos aos longos dos anos na empresa.
-          </p>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bxl-product-hunt' style="margin-left: 0;color:red;" ></i>
-            </div>
-            <div class="experience-title">
-             Phoebus Tecnologia
-            </div>
-            <div class="date">TRAINEE DE INFRA ( JAN 2025 - MAI 2025 )</div>
-          </div>
-          <p>
-            Como trainee precisei aprimorar alguns habilidades, como comunicação, resolução de problemas e conhecimentos da INFRA da empresa como um todo.
-          </p>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bxl-product-hunt' style="margin-left: 0; color:red;" ></i>
-            </div>
-            <div class="experience-title">
-             Phoebus Tecnologia
-            </div>
-            <div class="date">ESTÁGIO ( MAI 2023 - DEZ 2024 )</div>
-          </div>
-          <p>
-            Durante o tempo em que estive na PHOEBUS, pude desenvolver ainda mais minhas habilidades em suporte técnico, manutenção de notebooks, criação de sites, comunicação e trabalho em equipe.
-          </p>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bxl-medium' style="color:#ff5500;margin-left: 0;"></i>
-            </div>
-            <div class="experience-title"> Marcos inácio Advogados</div>
-            <div class="date">JOVEM APRENDIZ ( MAR 2019 - MAR 2021 )</div>
-          </div>
-          <p>
-            Aos 15 anos de idade, tive a oportunidade de trabalhar na Marcos, onde pude adquirir conhecimentos na área da tecnologia, apesar de ter pouco conhecimento prévio naquele momento. Rapidamente amadureci, realizando diversas atividades, incluindo configuração de rede, manutenção de computadores, desenvolvimento de vídeos, suporte técnico, atendimento ao cliente e instalação de softwares.
-          </p>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="container margem" >
-      <h2 class="primary-heading heading-experience">CURSOS</h2>
-      <div class="experiences">
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bx-desktop' style="margin-left:10px;color:#fef248;"></i>
-            </div>
-            <div class="experience-title"> MONTADOR E REPARADOR DE COMPUTADORES </div>
-            <div class="date">JAN 2020 - DEZ 2020</div>
-          </div>
-          <p>
-            Nesse curso presencial, aprendi a realizar a montagem, instalação, configuração e manutenção de computadores e sistemas operacionais, seguindo normas e procedimentos técnicos, de qualidade, segurança, saúde e preservação ambienta.
-          </p>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bxs-book-open' style="margin-left:10px;color:#fef248;" ></i>
-            </div>
-            <div class="experience-title"> CIEE - OCUPAÇÕES ADMINISTRATIVAS DO PROGRAMA APRENDIZ LEGAL</div>
-            <div class="date">ABRIL 2019 - MAR 2021</div>
-          </div>
-
-          <p>
-            No curso de Ocupações Administrativas, aprendi a lidar com documentos, formulários, relatórios, atendimento a clientes, rotinas de recursos humanos e apoio logístico. É tudo sobre facilitar a administração das coisas, de um jeito tranquilo e prático.
-          </p>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bx-code-alt' style="margin-left:10px;color:#fef248;" ></i>
-            </div>
-            <div class="experience-title">DEV WEB COMPLETO - 20 cursos + 20 projetos - Udemy (Online)</div>
-            <div class="date">MAIO 2020 - MAIO 2021</div>
-          </div>
-
-          <p>
-            Nesse curso, adquiri habilidades no uso de diversas tecnologias, incluindo HTML, CSS, JavaScript, PHP, requisições AJAX, MySQL e Bootstrap.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container margem" >
-      <h2 class="primary-heading heading-experience">FORMAÇÃO</h2>
-      <div class="experiences">
-        <div class="experience-item">
-          <div class="experience-title-container">
-            <div>
-              <i class='bx bx-lock-open-alt' style="margin-left:10px;color:#fef248;" ></i>
-            </div>
-            <div class="experience-title"> REDES DE COMPUTADORES - IFPB </div>
-            <div class="date">2022 - 2025</div>
-          </div>
-
-          <p>
-            No curso de Redes de Computadores, eu projeto, implemento e gerencio sistemas de redes, assegurando uma conectividade eficiente e segura entre dispositivos, além de configurar e otimizar infraestruturas de rede.
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <footer id="contact">
-      <div class="container">
-        <h2>Contatos</h2>
+      <div class="about-text">
+        <h1 id="sobre-titulo">Explorando o mundo da tecnologia com foco em redes e segurança da informação</h1>
         <p>
-          Sou um profissional dedicado e apaixonado pela área de Tecnologia da Informação, com experiência sólida em suporte técnico, manutenção de notebooks, criação de sites e comunicação. Durante meu estágio na Phoebus Tecnologia desde maio de 2023, aprimorei minhas habilidades em trabalho em equipe e suporte técnico. Meu conhecimento técnico é reforçado por cursos, como Montador e Reparador de Computadores, 
-          e participação no curso de Ocupações Administrativas. Sou formado em Redes de Computadores no IFPB (Instituto Federal da Paraíba), busco aprimorar minhas habilidades em projetar, implementar e gerenciar sistemas de redes.
-          Complementei meu conhecimentos com o curso Dev Web Completo na Udemy, adquirindo conhecimentos em HTML, CSS, JavaScript, PHP, requisições Ajax, MySQL e Bootstrap. Minha trajetória reflete comprometimento em buscar conhecimento contínuo e aplicar habilidades na área de Tecnologia da Informação.
+          Bem-vindo(a) ao meu portfólio! Sou Diego, um entusiasta de tecnologia com paixão por redes de computadores e segurança da informação. Atualmente curso Redes de Computadores no IFPB, adquirindo conhecimentos sólidos para me tornar um profissional competente.
         </p>
-        
-        <div class="social-links">
-          <a href="https://www.instagram.com/eu.joandersons/" target="_blank" title="INSTAGRAM"><i class='bx bxl-instagram-alt' ></i></a>
-          <a href="https://www.linkedin.com/in/joanderson-santos/" title="LINKEDIN" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-          <a href="https://www.facebook.com/joanderson.dossantos.58" title="FACEBOOK" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
-          <a href="https://github.com/eujoanderson" title="GITHUB" target="_blank"><i class='bx bxl-github' ></i></a>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joandersonsantossouza09@gmail.com" title="EMAIL" target="_blank"><i class='bx bxs-envelope'></i></a>
+        <div class="about-btn">
+          <a class="btn-primary" href="https://github.com/diegosls" target="_blank" aria-label="Acessar GitHub">
+            Acessar GitHub <i class='bx bxl-github'></i>
+          </a>
+          <a class="btn-secondary" href="#" target="_blank" aria-label="Baixar CV">
+            Baixar CV <i class='bx bxs-download'></i>
+          </a>
         </div>
       </div>
-      
-    </footer>
-  </body>
+    </section>
+
+    <!-- LINGUAGENS -->
+    <section class="container experience-with" role="region" aria-labelledby="linguagens-titulo">
+      <h2 id="linguagens-titulo">Linguagens</h2>
+      <div class="experience-with-lang">
+        <i class='bx bxl-php' aria-label="PHP"></i>
+        <i class='bx bxl-html5' aria-label="HTML5"></i>
+        <i class='bx bxl-css3' aria-label="CSS3"></i>
+        <i class='bx bxl-javascript' aria-label="JavaScript"></i>
+        <i class='bx bxl-python' aria-label="Python"></i>
+        <i class='bx bxl-nodejs' aria-label="Node.js"></i>
+        <i class='bx bxl-postgresql' aria-label="PostgreSQL"></i>
+        <i class='bx bxs-terminal' aria-label="ShellScript"></i>
+      </div>
+    </section>
+
+   <!-- PROJETOS -->
+<section id="projects" class="container margem" role="region" aria-labelledby="projetos-titulo">
+  <h2 id="projetos-titulo" class="primary-heading heading-project">Projetos</h2>
+  <div class="projects">
+    <!-- Projeto Horus -->
+    <div class="project-item">
+      <a href="https://github.com/diegosls/horus" target="_blank" aria-label="Acessar repositório Horus no GitHub">
+        <img src="image/horus.png" alt="Imagem do Projeto Horus: Sistema web de gerenciamento de incidentes" />
+      </a>
+      <div class="project-title">
+        <h3>Horus</h3>
+        <p>Sistema web para registro, consulta e gerenciamento de incidentes. Permite cadastro e login de usuários, registro de novos incidentes e visualização de registros. Backend em Node.js com Express e Prisma ORM, utilizando MySQL. Frontend em HTML, CSS e JavaScript puro.</p>
+        <p>Tecnologias: <i class='bx bxl-html5'></i> <i class='bx bxl-css3'></i> <i class='bx bxl-javascript'></i> <i class='bx bxl-nodejs'></i> <i class='bx bxl-mysql'></i></p>
+      </div>
+    </div>
+
+    <!-- Projeto Docker/WordPress -->
+    <div class="project-item">
+      <a href="https://github.com/diegosls/dockerProvisionProject" target="_blank" aria-label="Acessar repositório Infraestrutura Docker no GitHub">
+        <img src="image/dockerProvision.png" alt="Infraestrutura Docker com Vagrant e Ansible" />
+      </a>
+      <div class="project-title">
+        <h3>Infraestrutura Docker Automatizada</h3>
+        <p>Projeto que implementa uma infraestrutura completa de containers Docker usando Docker Compose, provisionada automaticamente com Vagrant e Ansible. Inclui Nginx com Load Balancer, WordPress e MySQL.</p>
+        <p>Tecnologias: <i class='bx bxl-docker'></i> <i class='bx bxl-vagrant'></i> <i class='bx bxl-linux'></i> <i class='bx bxl-nginx'></i></p>
+      </div>
+    </div>
+
+    <!-- Projeto DevOps IFPB -->
+    <div class="project-item">
+      <a href="https://github.com/diegosls/vagrantAnsibleProject" target="_blank" aria-label="Acessar repositório Projeto DevOps IFPB no GitHub">
+        <img src="image/ansibleVagrant.png" alt="Projeto DevOps IFPB: Infraestrutura com Vagrant e Ansible" />
+      </a>
+      <div class="project-title">
+        <h3>Projeto DevOps IFPB</h3>
+        <p>Projeto para provisionar e configurar uma infraestrutura virtual usando Vagrant e Ansible, promovendo práticas de DevOps e Infraestrutura como Código (IaC).</p>
+        <p>Tecnologias: <i class='bx bxl-vagrant'></i> <i class='bx bxl-ansible'></i> <i class='bx bxl-linux'></i></p>
+      </div>
+    </div>
+
+    <!-- Projeto Portfólio -->
+    <div class="project-item">
+      <a href="https://github.com/diegosls/portifolio" target="_blank" aria-label="Acessar repositório Portfólio no GitHub">
+        <img src="image/portfolio.png" alt="Portfólio de Diego Sales" />
+      </a>
+      <div class="project-title">
+        <h3>Portfólio</h3>
+        <p>Meu portfólio pessoal, desenvolvido para apresentar meus projetos, experiências, certificações e formação acadêmica. Criado com foco em responsividade, design moderno e acessibilidade.</p>
+        <p>Tecnologias: <i class='bx bxl-html5'></i> <i class='bx bxl-css3'></i> <i class='bx bxl-javascript'></i></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- CERTIFICAÇÕES E ATIVIDADES -->
+    <section class="container margem" role="region" aria-labelledby="certificacoes-titulo">
+      <h2 id="certificacoes-titulo" class="primary-heading heading-experience">Certificações e Atividades</h2>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-certificate' style="color:#fef248;"></i>
+          <div class="experience-title">Experiência de Empreender em Tecnologia da Paraíba para o Mundo</div>
+          <div class="date">Certificação</div>
+        </div>
+        <p>Conhecimentos sobre inovação e empreendedorismo na área de tecnologia, preparando para o mercado global.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-rocket' style="color:#fef248;"></i>
+          <div class="experience-title">Hackathon - Maratona CHAMMA Serviços de TI</div>
+          <div class="date">Atividade</div>
+        </div>
+        <p>Participação em maratona de desenvolvimento, aplicando habilidades de programação e resolução de problemas em equipe.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-certificate' style="color:#fef248;"></i>
+          <div class="experience-title">Cisco: Introdução a Cyber Security</div>
+          <div class="date">30 hrs</div>
+        </div>
+        <p>Introdução aos conceitos de segurança cibernética, práticas de proteção de redes e prevenção de ataques.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-certificate' style="color:#fef248;"></i>
+          <div class="experience-title">Cisco: Roteamento</div>
+          <div class="date">30 hrs</div>
+        </div>
+        <p>Configuração, gerenciamento e otimização de redes através de protocolos de roteamento.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-certificate' style="color:#fef248;"></i>
+          <div class="experience-title">Huawei: Python Basic Skills</div>
+          <div class="date">10 hrs</div>
+        </div>
+        <p>Fundamentos de Python, incluindo sintaxe básica e automação de tarefas simples.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bxs-certificate' style="color:#fef248;"></i>
+          <div class="experience-title">Huawei: Cloud Computing Basic</div>
+          <div class="date">10 hrs</div>
+        </div>
+        <p>Conceitos de computação em nuvem, serviços cloud e infraestrutura básica para projetos tecnológicos.</p>
+      </div>
+
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="container margem" role="region" aria-labelledby="formacao-titulo">
+      <h2 id="formacao-titulo" class="primary-heading heading-experience">Formação</h2>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bx-book' style="margin-left:10px;color:#fef248;"></i>
+          <div class="experience-title">Ensino Médio Completo - E.E.E.F.M. Dr. João Navarro Filho</div>
+          <div class="date">Conclusão: 2021</div>
+        </div>
+        <p>Formação básica concluída, proporcionando a base necessária para o desenvolvimento acadêmico e profissional.</p>
+      </div>
+
+      <div class="experience-item">
+        <div class="experience-title-container">
+          <i class='bx bx-lock-open-alt' style="margin-left:10px;color:#fef248;"></i>
+          <div class="experience-title">Curso Superior Tecnológico em Redes de Computadores - IFPB</div>
+          <div class="date">2022 - 2025 (previsão)</div>
+        </div>
+        <p>Curso em andamento com foco em projetar, implementar e gerenciar sistemas de redes, assegurando conectividade eficiente e segura.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- CONTATO -->
+  <footer id="contact" role="contentinfo">
+    <div class="container">
+      <h2>Contatos</h2>
+      <p>
+        Sou um profissional dedicado e apaixonado pela área de TI, com experiência sólida em suporte técnico, manutenção de notebooks, criação de sites e comunicação.
+      </p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/_diego.cst/" target="_blank" title="Instagram" aria-label="Instagram"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/diego-sales/" target="_blank" title="LinkedIn" aria-label="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/diegosls" target="_blank" title="GitHub" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="mailto:diego.sales0083@gmail.com" title="Email" aria-label="Enviar email"><i class='bx bxs-envelope'></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
